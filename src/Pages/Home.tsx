@@ -15,9 +15,11 @@ export default function Home() {
                     <button className="bg-[#1F6CFF] hover:bg-[#B088F9] text-white font-semibold py-3 px-6 rounded-2xl shadow-lg transition-all duration-200">
                         Commencer gratuitement
                     </button>
-                    <button className="border border-[#F2F2F5] text-[#F2F2F5] py-3 px-6 rounded-2xl hover:bg-[#F2F2F5] hover:text-black transition-all duration-200">
-                        Découvrir l'app
-                    </button>
+                    <a href="/services">
+                      <button className="border border-[#F2F2F5] text-[#F2F2F5] py-3 px-6 rounded-2xl hover:bg-[#F2F2F5] hover:text-black transition-all duration-200">
+                          Découvrir l'app
+                      </button>
+                    </a>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left text-[#A5A6AD]">
                     <div className="bg-[#1A1A1F] p-6 rounded-2xl border border-[#2B2B31] hover:border-[#822EAD] transition">
