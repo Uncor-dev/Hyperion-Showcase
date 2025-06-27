@@ -1,6 +1,6 @@
 import Logo from "@/assets/logo.svg";
 import NavMenu from "@/components/Navbar/menu-hover-effects";
-import { FaLink } from "react-icons/fa";
+import { IoShareSocial } from "react-icons/io5";
 import {
     EmailShareButton,
     FacebookShareButton,
@@ -20,7 +20,7 @@ import { FaReddit } from "react-icons/fa";
 
 export default function Navbar() {
     return (
-        <section className="fixed top-0 left-0 right-0 z-50 flex h-20 items-center border-b border-gray-800 px-6 md:px-16">
+        <section className="fixed top-0 left-0 right-0 z-50 flex h-20 items-center border-b border-gray-800 bg-[#0E0E12] px-6 md:px-16">
             <div className="absolute left-0 top-0 h-full flex items-center z-20">
                 <div
                     className="

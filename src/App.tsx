@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="flex h-screen flex-col overflow-auto bg-[#0E0E12] text-[#F2F2F5]">
       <Navbar />
-      <div className="flex flex-col items-center justify-center pt-12">
+      <div className="flex flex-col items-center justify-center pt-35">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
