@@ -3,7 +3,10 @@ export default function Home() {
         <section className="flex flex-col items-center justify-center text-center px-6 text-[#F2F2F5]">
             <div className="max-w-4xl">
                 <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
-                    Hyperion : Ton Coach Muscu <span className="text-[#822EAD]">propulsé par l’IA</span>
+                    Hyperion : Ton Coach Muscu <br />
+                    <span className="bg-gradient-to-r from-[#822EAD] via-[#1F6CFF] to-[#42FFB6] bg-clip-text text-transparent animate-gradient-x font-black">
+                      propulsé par l’IA
+                    </span>
                 </h1>
                 <p className="text-lg md:text-xl text-[#A5A6AD] mb-10">
                     Progresse plus vite, plus intelligemment. Hyperion t’accompagne avec des programmes personnalisés, un suivi en temps réel, et des conseils adaptés à tes objectifs.
