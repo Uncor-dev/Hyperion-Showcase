@@ -68,7 +68,7 @@ export default function Navbar() {
                             whitespace-nowrap
                         "
                     >
-                        Share 🙏
+                        Share ❤️
                     </span>
                     <div
                         className="

@@ -14,13 +14,13 @@ export default function AboutUs() {
             </div>
 
             <div className="bg-[#1A1A1F] px-6 py-16 text-center rounded-t-3xl">
-                <h3 className="text-3xl font-bold mb-4 text-[#42FFB6]">Notre histoire</h3>
+                <h3 className="text-3xl font-bold mb-4 text-[#A5A6AD]">Notre histoire</h3>
                 <p className="max-w-3xl mx-auto text-[#A5A6AD]">
                     Hyperion est né de la vision de deux passionnés de musculation et de technologie. Lassé des programmes standards peu personnalisés, ils ont créé une IA capable de comprendre ton corps et de t’accompagner de façon unique. Chaque séance devient une expérience sur-mesure, optimisée pour tes objectifs.        </p>
             </div>
 
             <div className="px-6 py-16">
-                <h3 className="text-3xl font-bold mb-8 text-center">Nos valeurs</h3>
+                <h3 className="text-3xl font-bold mb-8 text-center text-[#B088F9]">Nos valeurs</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left text-[#A5A6AD]">
                     <div className="bg-[#1A1A1F] p-6 rounded-2xl border border-[#2B2B31] hover:border-[#822EAD] transition">
                         <h3 className="text-xl font-semibold text-[#F2F2F5] mb-2">Santé</h3>
@@ -42,7 +42,7 @@ export default function AboutUs() {
             </div>
 
             <div className="bg-[#1A1A1F] px-6 py-16 text-center rounded-b-3xl">
-                <h3 className="text-3xl font-bold mb-4 text-[#42FFB6]">L'équipe</h3>
+                <h3 className="text-3xl font-bold mb-4 text-[#A5A6AD]">L'équipe</h3>
                 <p className="max-w-3xl mx-auto text-[#A5A6AD]">
                     Hyperion est porté par un solo founder, passionné de musculation et expert en IA. Ce mélange rare de technologie et de sport donne vie à un coach numérique intelligent et motivant, disponible partout, tout le temps.
                 </p>
