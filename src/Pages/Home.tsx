@@ -8,6 +8,7 @@ export default function Home() {
                 viewBox="0 0 1920 1080"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
             >
                 <defs>
                     <linearGradient id="waveGradient" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">

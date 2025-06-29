@@ -1,6 +1,5 @@
 import Logo from "@/assets/logo.svg";
 import NavMenu from "@/components/Navbar/menu-hover-effects";
-import { IoShareSocial } from "react-icons/io5";
 import {
     EmailShareButton,
     FacebookShareButton,
@@ -68,7 +67,7 @@ export default function Navbar() {
                             whitespace-nowrap
                         "
                     >
-                        Share ❤️
+                        Share 🙏
                     </span>
                     <div
                         className="

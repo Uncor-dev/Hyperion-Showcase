@@ -3,7 +3,7 @@ import { RiCloseLargeFill } from "react-icons/ri";
 
 export default function Pricing() {
     return (
-        <section className="bg-[#0E0E12] px-6">
+        <section className="relative md:px-50 px-6 pb-30">
             <div className="max-w-5xl mx-auto text-center mb-12">
                 <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Tarifs pour <span className="bg-gradient-to-r from-[#822EAD] via-[#1F6CFF] to-[#42FFB6] bg-clip-text text-transparent animate-gradient-x font-black">Hyperion</span></h2>
                 <p className="text-[#A5A6AD] text-lg">
