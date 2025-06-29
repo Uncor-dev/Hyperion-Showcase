@@ -28,7 +28,7 @@ export default function Navbar() {
                         transition-all duration-300
                         bg-[#1A1A1F] pl-5 pr-5 cursor-pointer
                         relative
-                        hover:pl-70
+                        hover:pl-70 hover:border-r-3 border-[#1F6CFF]
                     "
                 >
                     <img src={Logo} className="relative z-20 h-15 rounded-2xl" alt="Logo" />
@@ -56,7 +56,7 @@ export default function Navbar() {
                         transition-all duration-300
                         bg-[#1A1A1F] pl-5 pr-4 cursor-pointer
                         relative overflow-hidden
-                        w-25 hover:w-90
+                        w-25 hover:w-90 hover:border-l-3 border-[#1F6CFF]
                     "
                 >
                     <span

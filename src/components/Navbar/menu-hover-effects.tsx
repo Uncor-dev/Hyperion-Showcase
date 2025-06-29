@@ -3,7 +3,7 @@ import { useState } from 'react';
 const menuItems = [
     { name: 'Home', href: '/' },
     { name: 'Services', href: '/services' },
-    { name: 'About', href: '/about-us' },
+    { name: 'About Us', href: '/about-us' },
     { name: 'Pricing', href: '/pricing' },
     { name: 'Community', href: '/community' },
     { name: 'Contact', href: '/contact' },

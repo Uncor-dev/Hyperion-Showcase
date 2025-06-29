@@ -1,11 +1,37 @@
 export default function Home() {
     return (
-        <section className="flex flex-col items-center justify-center text-center px-6 text-[#F2F2F5]">
-            <div className="max-w-4xl">
+        <section className="relative flex flex-col items-center justify-center text-center px-6 overflow-hidden">
+            <svg
+                className="fixed left-0 top-0 w-screen h-screen pointer-events-none z-0"
+                width="100%"
+                height="100%"
+                viewBox="0 0 1920 1080"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <defs>
+                    <linearGradient id="waveGradient" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">
+                        <stop stopColor="#822EAD" />
+                        <stop offset="0.5" stopColor="#1F6CFF" />
+                        <stop offset="1" stopColor="#42FFB6" />
+                    </linearGradient>
+                </defs>
+                <path
+                    d="M0 700 Q 480 600 960 700 T 1920 700 V1080 H0 Z"
+                    fill="url(#waveGradient)"
+                    opacity="0.18"
+                />
+                <path
+                    d="M0 800 Q 600 900 1200 800 T 1920 800 V1080 H0 Z"
+                    fill="url(#waveGradient)"
+                    opacity="0.12"
+                />
+            </svg>
+            <div className="max-w-4xl z-10">
                 <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
                     Hyperion : Ton Coach Muscu <br />
                     <span className="bg-gradient-to-r from-[#822EAD] via-[#1F6CFF] to-[#42FFB6] bg-clip-text text-transparent animate-gradient-x font-black">
-                      propulsé par l’IA
+                        Propulsé par l’IA
                     </span>
                 </h1>
                 <p className="text-lg md:text-xl text-[#A5A6AD] mb-10">
@@ -16,9 +42,9 @@ export default function Home() {
                         Commencer gratuitement
                     </button>
                     <a href="/services">
-                      <button className="border border-[#F2F2F5] text-[#F2F2F5] py-3 px-6 rounded-2xl hover:bg-[#F2F2F5] hover:text-black transition-all duration-200">
-                          Découvrir l'app
-                      </button>
+                        <button className="border border-[#F2F2F5] text-[#F2F2F5] py-3 px-6 rounded-2xl hover:bg-[#F2F2F5] hover:text-black transition-all duration-200">
+                            Découvrir l'app
+                        </button>
                     </a>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left text-[#A5A6AD]">

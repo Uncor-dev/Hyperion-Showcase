@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <section className="min-h-screen bg-[#0E0E12] text-[#F2F2F5] px-6">
+    <section className="min-h-screen px-6">
       <div className="max-w-5xl mx-auto text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Ce que <span className="bg-gradient-to-r from-[#822EAD] via-[#1F6CFF] to-[#42FFB6] bg-clip-text text-transparent animate-gradient-x font-black">Hyperion</span> fait pour toi</h2>
         <p className="text-[#A5A6AD] text-lg">
@@ -10,7 +10,6 @@ export default function Services() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
 
-        {/* 1 - Programme sur mesure */}
         <ServiceCard
           title="Programme sur mesure par IA"
           description="Hyperion crée un plan d’entraînement personnalisé en fonction de ton niveau, ton objectif et ta disponibilité."
@@ -18,7 +17,6 @@ export default function Services() {
           borderColor="#822EAD"
         />
 
-        {/* 2 - Suivi & adaptation */}
         <ServiceCard
           title="Suivi des performances en temps réel"
           description="Grâce à l’analyse de tes résultats, le programme s’ajuste automatiquement pour te pousser sans te blesser."
@@ -26,7 +24,6 @@ export default function Services() {
           borderColor="#1F6CFF"
         />
 
-        {/* 3 - Coach vocal */}
         <ServiceCard
           title="Coach vocal intégré"
           description="Ton assistant IA t’encourage, t’indique les consignes, le rythme et les temps de repos pendant tes séances."
@@ -34,7 +31,6 @@ export default function Services() {
           borderColor="#42FFB6"
         />
 
-        {/* 4 - Statistiques visuelles */}
         <ServiceCard
           title="Statistiques & graphiques de progression"
           description="Suis ton évolution jour après jour avec des visuels clairs et des insights générés automatiquement."
@@ -42,7 +38,6 @@ export default function Services() {
           borderColor="#B088F9"
         />
 
-        {/* 5 - Repos & nutrition */}
         <ServiceCard
           title="Conseils nutrition & récupération"
           description="Reçois des suggestions personnalisées sur l’alimentation et la récupération pour optimiser tes résultats."
