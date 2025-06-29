@@ -3,7 +3,7 @@ import Martin from "../assets/tranfoMartin.png"
 
 export default function Community() {
     return (
-        <section className="flex flex-col items-center justify-center md:px-50 px-6 pb-10 bg-[#0E0E12] text-[#F2F2F5]">
+        <section className="flex flex-col items-center justify-center md:px-50 px-6 pb-15 bg-[#0E0E12] text-[#F2F2F5]">
             <div className="max-w-4xl text-center mb-12">
                 <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
                     Une <span className="bg-gradient-to-r from-[#822EAD] via-[#1F6CFF] to-[#42FFB6] bg-clip-text text-transparent animate-gradient-x">Communauté</span> qui progresse ensemble

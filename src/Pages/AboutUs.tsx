@@ -1,6 +1,6 @@
 export default function AboutUs() {
     return (
-        <section className="relative md:px-50 px-6 pb-30">
+        <section className="relative md:px-50 px-6">
             <div className="max-w-5xl mx-auto text-center mb-16 z-10">
                 <h2 className="text-4xl md:text-5xl font-extrabold mb-4">À propos d’<span className="bg-gradient-to-r from-[#822EAD] via-[#1F6CFF] to-[#42FFB6] bg-clip-text text-transparent animate-gradient-x font-black">Hyperion</span></h2>
 

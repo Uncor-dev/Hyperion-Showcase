@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <section className="px-6 pb-30">
+        <section className="px-6 pb-15">
             <div className="text-center mb-12">
                 <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
                     Contacte-nous
