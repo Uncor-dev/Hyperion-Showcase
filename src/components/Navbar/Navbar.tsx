@@ -8,7 +8,7 @@ import {
     RedditShareButton,
 } from "react-share";
 
-const shareUrl = "https://hyperion.com/";
+const shareUrl = "https://www.epitech.eu/2025/02/04/epitech-experience-2025-linnovation-au-coeur-de-la-tech/";
 const shareTitle = "Découvrez Hyperion et transformez votre physique !";
 
 import { FaMailBulk } from "react-icons/fa";
