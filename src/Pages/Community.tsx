@@ -1,7 +1,12 @@
-import Louis from "../assets/transfoLouis.png"
-import Martin from "../assets/tranfoMartin.png"
+import { useState } from "react";
+import { MdOutlinePhotoSizeSelectActual } from "react-icons/md";
+
+import Transfo1 from "@/assets/alan_avant_apres_3.jpg"
+import Transfo2 from "@/assets/8dca9367e13d980e19826d515827ab72.jpg";
+import Transfo3 from "@/assets/skinny-fat-avant-apres-1024x765.webp";
 
 export default function Community() {
+    const [modalImg, setModalImg] = useState<string | null>(null);
     return (
         <section className="flex flex-col items-center justify-center md:px-50 px-6 pb-15 bg-[#0E0E12] text-[#F2F2F5]">
             <div className="max-w-4xl text-center mb-12">
@@ -29,24 +34,44 @@ export default function Community() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-                <div className="bg-[#1A1A1F] p-6 rounded-xl shadow hover:scale-105 transition">
+                <div
+                    className="bg-[#1A1A1F] p-6 rounded-xl shadow hover:scale-105 transition cursor-pointer h-45"
+                    onClick={() => setModalImg(Transfo1)}
+                >
                     <p className="italic">“Hyperion m’a aidé à enfin atteindre mes objectifs. L’IA comprend vraiment ce dont j’ai besoin.”</p>
                     <p className="mt-4 font-bold text-[#822EAD]">— Alex</p>
+                    <MdOutlinePhotoSizeSelectActual className="text-2xl mt-2 w-4" />
                 </div>
-                <div className="bg-[#1A1A1F] p-6 rounded-xl shadow hover:scale-105 transition">
+                <div
+                    className="bg-[#1A1A1F] p-6 rounded-xl shadow hover:scale-105 transition cursor-pointer h-45"
+                    onClick={() => setModalImg(Transfo2)}
+                >
                     <p className="italic">“J’ai gagné en force et perdu 10kg en 4 mois grâce au suivi ultra précis.”</p>
                     <p className="mt-4 font-bold text-[#822EAD]">— Camille</p>
+                    <MdOutlinePhotoSizeSelectActual className="text-2xl mt-2 w-4" />
                 </div>
-                <div className="bg-[#1A1A1F] p-6 rounded-xl shadow hover:scale-105 transition">
+                <div
+                    className="bg-[#1A1A1F] p-6 rounded-xl shadow hover:scale-105 transition cursor-pointer h-45"
+                    onClick={() => setModalImg(Transfo3)}
+                >
                     <p className="italic">“Les stats et le coach vocal me boostent à chaque séance. J’adore.”</p>
                     <p className="mt-4 font-bold text-[#822EAD]">— Samir</p>
+                    <MdOutlinePhotoSizeSelectActual className="text-2xl mt-2 w-4" />
                 </div>
             </div>
-
-            <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
-                <img src={Louis} alt="Avant/Après 1" className="rounded-xl shadow-lg w-full md:w-1/2" />
-                <img src={Martin} alt="Avant/Après 2" className="rounded-xl shadow-lg w-full md:w-1/2" />
-            </div>
+            {modalImg && (
+                <div
+                    className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm"
+                    onClick={() => setModalImg(null)}
+                >
+                    <img
+                        src={modalImg}
+                        alt="Transformation"
+                        className="max-w-[90vw] max-h-[80vh] rounded-2xl shadow-2xl border-4 border-white"
+                        onClick={e => e.stopPropagation()}
+                    />
+                </div>
+            )}
 
             <div className="text-center">
                 <h2 className="text-3xl font-bold mb-8">Prêt à rejoindre la team Hyperion ?</h2>
